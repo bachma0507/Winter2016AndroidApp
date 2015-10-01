@@ -148,7 +148,7 @@ public class SQLiteDB {
 
 	  Cursor mCursor = db.query(SQLITE_TABLE, new String[] {KEY_ID,
 			  KEY_SCHEDULEDATE, KEY_SESSIONNAME, KEY_SESSIONTIME, KEY_DESC}, 
-	    null, null, null, null, null);
+	    null, null, null, null, KEY_ID + " ASC");
 
 	  if (mCursor != null) {
 	   mCursor.moveToFirst();
