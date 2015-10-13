@@ -134,7 +134,7 @@ public class ConfSchedFragment extends Fragment implements AdapterView.OnItemCli
 	   View view = super.getView(position, convertView, parent); 
 	   //check for odd or even to set alternate colors to the row background
 	   if(position % 2 == 0){  
-	    view.setBackgroundColor(Color.rgb(246, 235, 253));
+	    view.setBackgroundColor(Color.rgb(185, 197, 161));
 	   }
 	   else {
 	    view.setBackgroundColor(Color.rgb(255, 255, 255));

@@ -25,7 +25,7 @@
 		    android:layout_below="@+id/textViewConfDay"
 		    android:text="confdate"
 		    android:textAppearance="?android:attr/textAppearanceSmall"
-		    android:textColor="#acacac"
+		    android:textColor="#343333"
 		    android:textStyle="bold" />
 
 		<ImageView
